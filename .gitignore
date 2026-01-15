@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Vite's internal cache (in older setups or certain tools)
+.vite/
+.vitepress/cache/
+/build
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+
+# Optional: ignore local editor settings
+.vscode/

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "vitepress dev --host",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "dolphin-components": "^2.2.26",
+    "vitepress": "^1.6.4"
+  }
+}
