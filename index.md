@@ -11,7 +11,7 @@ hero:
       link: /docs/NepaliDate/getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/AnshuJalan/nepali-date-library
+      link: https://github.com/SandipGhimire/nepali-date-library
 features:
   - icon: 🔄
     title: Date Conversion

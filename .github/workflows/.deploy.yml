@@ -1,0 +1,37 @@
+name: Deploy Docs to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install Pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build wiki
+        run: pnpm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          project_name: nepalidate-wiki
+          directory: dist
