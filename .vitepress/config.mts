@@ -21,6 +21,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "NodeJS", link: "/docs/NodeJS/" },
+      { text: "Python", link: "/docs/Python/" },
     ],
     sidebar: {
       "/docs/NodeJS/": [
@@ -82,6 +83,40 @@ export default defineConfig({
             {
               text: "Code Snippets",
               link: "/docs/NodeJS/examples/code-snippets",
+            },
+          ],
+        },
+      ],
+      "/docs/Python/": [
+        {
+          text: "Introduction",
+          items: [
+            { text: "Overview", link: "/docs/Python/" },
+            {
+              text: "Getting Started",
+              link: "/docs/Python/getting-started",
+            },
+            {
+              text: "Use Cases",
+              link: "/docs/Python/use-cases",
+            },
+          ],
+        },
+        {
+          text: "API Reference",
+          items: [
+            { text: "Overview", link: "/docs/Python/api/" },
+            {
+              text: "NepaliDate Class",
+              link: "/docs/Python/api/nepali-date-class",
+            },
+            {
+              text: "Conversion Functions",
+              link: "/docs/Python/api/conversion-functions",
+            },
+            {
+              text: "Constants",
+              link: "/docs/Python/api/constants",
             },
           ],
         },
