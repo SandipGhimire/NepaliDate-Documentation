@@ -20,68 +20,68 @@ export default defineConfig({
     logo: "/logo.svg",
     nav: [
       { text: "Home", link: "/" },
-      { text: "NepaliDate Library", link: "/docs/NepaliDate/" },
+      { text: "NodeJS", link: "/docs/NodeJS/" },
     ],
     sidebar: {
-      "/docs/NepaliDate/": [
+      "/docs/NodeJS/": [
         {
           text: "Introduction",
           items: [
-            { text: "Overview", link: "/docs/NepaliDate/" },
+            { text: "Overview", link: "/docs/NodeJS/" },
             {
               text: "Getting Started",
-              link: "/docs/NepaliDate/getting-started",
+              link: "/docs/NodeJS/getting-started",
             },
           ],
         },
         {
           text: "API Reference",
           items: [
-            { text: "Overview", link: "/docs/NepaliDate/api/" },
+            { text: "Overview", link: "/docs/NodeJS/api/" },
             {
               text: "NepaliDate Class",
-              link: "/docs/NepaliDate/api/nepali-date-class",
+              link: "/docs/NodeJS/api/nepali-date-class",
             },
             {
               text: "Conversion Functions",
-              link: "/docs/NepaliDate/api/conversion-functions",
+              link: "/docs/NodeJS/api/conversion-functions",
             },
             {
               text: "Static Methods",
-              link: "/docs/NepaliDate/api/static-methods",
+              link: "/docs/NodeJS/api/static-methods",
             },
-            { text: "Constants", link: "/docs/NepaliDate/api/constants" },
+            { text: "Constants", link: "/docs/NodeJS/api/constants" },
           ],
         },
         {
           text: "Use Cases",
           items: [
-            { text: "Overview", link: "/docs/NepaliDate/use-cases/" },
+            { text: "Overview", link: "/docs/NodeJS/use-cases/" },
             {
               text: "Date Conversion",
-              link: "/docs/NepaliDate/use-cases/date-conversion",
+              link: "/docs/NodeJS/use-cases/date-conversion",
             },
             {
               text: "Calendar Generation",
-              link: "/docs/NepaliDate/use-cases/calendar-generation",
+              link: "/docs/NodeJS/use-cases/calendar-generation",
             },
             {
               text: "Fiscal Year Operations",
-              link: "/docs/NepaliDate/use-cases/fiscal-year",
+              link: "/docs/NodeJS/use-cases/fiscal-year",
             },
             {
               text: "Date Ranges",
-              link: "/docs/NepaliDate/use-cases/date-ranges",
+              link: "/docs/NodeJS/use-cases/date-ranges",
             },
           ],
         },
         {
           text: "Examples",
           items: [
-            { text: "Overview", link: "/docs/NepaliDate/examples/" },
+            { text: "Overview", link: "/docs/NodeJS/examples/" },
             {
               text: "Code Snippets",
-              link: "/docs/NepaliDate/examples/code-snippets",
+              link: "/docs/NodeJS/examples/code-snippets",
             },
           ],
         },
@@ -90,12 +90,12 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/SandipGhimire/nepali-date-library",
+        link: "https://github.com/SandipGhimire/",
       },
     ],
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present Sandip Ghimire",
+      copyright: "Copyright © 2026-present Sandip Ghimire",
     },
     search: {
       provider: "local",
