@@ -50,6 +50,30 @@ console.log(maxDate.getFullYear()); // 2044
 
 ---
 
+### NepaliDate.daysInMonth()
+
+Returns the number of days in a given Nepali month.
+
+```typescript
+static daysInMonth(year: number, month: number): number
+```
+
+**Parameters:**
+
+- `year` - Nepali year (1943-2100)
+- `month` - Nepali month (0-11)
+
+**Returns:** Number of days in the given Nepali month
+
+**Example:**
+
+```typescript
+const daysInMonth = NepaliDate.daysInMonth(2082, 9);
+console.log(daysInMonth); // 30
+```
+
+---
+
 ## Validation
 
 ### NepaliDate.isValid() {#isvalid-static}
@@ -62,7 +86,7 @@ static isValid(year: number, month: number, day: number): boolean
 
 **Parameters:**
 
-- `year` - Nepali year (2000-2100)
+- `year` - Nepali year (1943-2100)
 - `month` - Nepali month (0-11)
 - `day` - Day of month (1-32)
 

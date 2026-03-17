@@ -12,9 +12,6 @@ hero:
     - theme: alt
       text: Python Docs
       link: /docs/Python/getting-started
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/SandipGhimire/nepali-date-library
 features:
   - icon: 🔄
     title: Multi-Language Support

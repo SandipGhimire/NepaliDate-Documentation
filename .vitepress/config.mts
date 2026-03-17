@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "Nepali Date",
+  title: "Nepali Date Library",
   description:
     "A comprehensive Nepali (Bikram Sambat) date library for TypeScript and JavaScript",
   outDir: "./build",
@@ -86,6 +86,10 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "Changelogs",
+          items: [{ text: "v1+", link: "/docs/NodeJS/Changelog/V1" }],
+        },
       ],
       "/docs/Python/": [
         {
@@ -95,10 +99,6 @@ export default defineConfig({
             {
               text: "Getting Started",
               link: "/docs/Python/getting-started",
-            },
-            {
-              text: "Use Cases",
-              link: "/docs/Python/use-cases",
             },
           ],
         },
@@ -115,10 +115,50 @@ export default defineConfig({
               link: "/docs/Python/api/conversion-functions",
             },
             {
+              text: "Static Methods",
+              link: "/docs/Python/api/static-methods",
+            },
+            {
               text: "Constants",
               link: "/docs/Python/api/constants",
             },
           ],
+        },
+        {
+          text: "Use Cases",
+          items: [
+            { text: "Overview", link: "/docs/Python/use-cases/" },
+            {
+              text: "Date Conversion",
+              link: "/docs/Python/use-cases/date-conversion",
+            },
+            {
+              text: "Calendar Generation",
+              link: "/docs/Python/use-cases/calendar-generation",
+            },
+            {
+              text: "Fiscal Year Operations",
+              link: "/docs/Python/use-cases/fiscal-year",
+            },
+            {
+              text: "Date Ranges",
+              link: "/docs/Python/use-cases/date-ranges",
+            },
+          ],
+        },
+        {
+          text: "Examples",
+          items: [
+            { text: "Overview", link: "/docs/Python/examples/" },
+            {
+              text: "Code Snippets",
+              link: "/docs/Python/examples/code-snippets",
+            },
+          ],
+        },
+        {
+          text: "Changelogs",
+          items: [{ text: "v1+", link: "/docs/Python/Changelog/V1" }],
         },
       ],
     },

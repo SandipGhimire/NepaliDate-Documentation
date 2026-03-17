@@ -1,14 +1,15 @@
 # Nepali Date Ecosystem Documentation
 
-This repository hosts the official documentation for the **Nepali Date ecosystem**, which includes the core [Nepali Date Library](https://github.com/SandipGhimire/nepali-date-library) and associated UI ecosystem.
+This repository hosts the official documentation for the **Nepali Date ecosystem**, which includes the core date libraries for multiple languages and the associated UI ecosystem.
 
 ## Project Scope
 
 This documentation covers:
 
-- 📅 **Nepali Date Library**: The core TypeScript/JavaScript library for BS/AD conversion and manipulation.
+- 📅 **Nepali Date Library (NodeJS)**: The core TypeScript/JavaScript library for BS/AD conversion and manipulation. [(GitHub)](https://github.com/SandipGhimire/nepali-date-library-nodejs)
+- 🐍 **Nepali Date Library (Python)**: The core Python library for BS/AD conversion and manipulation. [(GitHub)](https://github.com/SandipGhimire/nepali-date-library-python)
 - 🎨 **UI Components**: Documentation for upcoming Vue and React Nepali Date Pickers.
-- 📚 **Guides & API**: Comprehensive guides, examples, and API references.
+- 📚 **Guides & API**: Comprehensive guides, examples, and full API references for both languages.
 
 This site is statically generated using [VitePress](https://vitepress.dev/).
 
@@ -29,7 +30,7 @@ pnpm run build
 
 ## Contributing
 
-Contributions to the documentation are welcome! If you find a typo or want to update guide, please feel free to submit a Pull Request.
+Contributions to the documentation are welcome! If you find a typo or want to update a guide, please feel free to submit a Pull Request.
 
 ## License
 
